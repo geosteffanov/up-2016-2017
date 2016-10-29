@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-//познатите от предната задача sumOfDigits и haveEqualSums
+//РїРѕР·РЅР°С‚РёС‚Рµ РѕС‚ РїСЂРµРґРЅР°С‚Р° Р·Р°РґР°С‡Р° sumOfDigits Рё haveEqualSums
 int sumOfDigits(int number) {
 	int sum = 0;
 	while (number > 0) {
@@ -13,9 +13,9 @@ int sumOfDigits(int number) {
 bool haveEqualSums(int firstNumber, int secondNumber) {
 	return (sumOfDigits(firstNumber) == sumOfDigits(secondNumber));
 }
-//проста фунцкия, която обхожда всички числа в дадения интервал
-//и прави проверката haveEqualSums, и ако резултатът е истина печата
-//текущото число
+//РїСЂРѕСЃС‚Р° С„СѓРЅС†РєРёСЏ, РєРѕСЏС‚Рѕ РѕР±С…РѕР¶РґР° РІСЃРёС‡РєРё С‡РёСЃР»Р° РІ РґР°РґРµРЅРёСЏ РёРЅС‚РµСЂРІР°Р»
+//Рё РїСЂР°РІРё РїСЂРѕРІРµСЂРєР°С‚Р° haveEqualSums, Рё Р°РєРѕ СЂРµР·СѓР»С‚Р°С‚СЉС‚ Рµ РёСЃС‚РёРЅР° РїРµС‡Р°С‚Р°
+//С‚РµРєСѓС‰РѕС‚Рѕ С‡РёСЃР»Рѕ
 void printAll(int number,int startOfInterval, int endOfInterval){
     for(int i=startOfInterval;i<=endOfInterval;i++){
         if(haveEqualSums(number,i))

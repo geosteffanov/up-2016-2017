@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-//пак си дефнирам собствена power, защото ми прави проблеми pow
+//РїР°Рє СЃРё РґРµС„РЅРёСЂР°Рј СЃРѕР±СЃС‚РІРµРЅР° power, Р·Р°С‰РѕС‚Рѕ РјРё РїСЂР°РІРё РїСЂРѕР±Р»РµРјРё pow
 int power(int num,int p){
     int result=1;
     for(int i=0;i<p;i++){
@@ -8,7 +8,7 @@ int power(int num,int p){
     }
     return result;
 }
-//познатите от предната задача countDigits и isSubNumber
+//РїРѕР·РЅР°С‚РёС‚Рµ РѕС‚ РїСЂРµРґРЅР°С‚Р° Р·Р°РґР°С‡Р° countDigits Рё isSubNumber
 int countDigits(int number) {
 	int digitCount = 1;
 	while (number > 9) {
@@ -29,8 +29,8 @@ bool isSubNumber(int find, int search) {
 	}
 	return false;
 }
-//проста фунцкия, която обхожда числата от 1 до number
-//и ги печата, ако отговарят на условието isSubNumber
+//РїСЂРѕСЃС‚Р° С„СѓРЅС†РєРёСЏ, РєРѕСЏС‚Рѕ РѕР±С…РѕР¶РґР° С‡РёСЃР»Р°С‚Р° РѕС‚ 1 РґРѕ number
+//Рё РіРё РїРµС‡Р°С‚Р°, Р°РєРѕ РѕС‚РіРѕРІР°СЂСЏС‚ РЅР° СѓСЃР»РѕРІРёРµС‚Рѕ isSubNumber
 void printAllSubNumbers(int number){
     for(int i=1;i<=number;i++){
         if(isSubNumber(i,number))
