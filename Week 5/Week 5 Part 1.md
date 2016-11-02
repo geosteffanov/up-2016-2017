@@ -41,4 +41,4 @@
 **_Blood types_**
 
 Да се направи програма, която по въведена кръвна група изписва на екрана кръвните групи, на които тя може да е донор, и кръвните групи, които могат да бъдат неин донор.
-[blood types](blood-types.png)
+[blood types](https://github.com/geosteffanov/up-2016-2017/blob/master/Week%205/blood-types.PNG)
