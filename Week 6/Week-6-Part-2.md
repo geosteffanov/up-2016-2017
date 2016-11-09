@@ -1,4 +1,4 @@
-# Задачи за седмица 6, Част II
+﻿# Задачи за седмица 6, Част II
 
 ### Зад. 6
 
@@ -11,17 +11,17 @@
 Пример: 
 	
 	<< Въведете изречение:
-	>> Are you talking to me?
-	<< 'Are you talking to me?' е въпросително изречение.
+	>> Are_you_talking_to_me?
+	<< 'Are_you_talking_to_me?' е въпросително изречение.
 
 
 	<< Въведете изречение:
-	>> I chew bubblegum.
-	<< 'I chew bubblegum' е съобщително изречение.
+	>> I_chew_bubblegum.
+	<< 'I_chew_bubblegum' е съобщително изречение.
 
 	<< Въведете изречение:
-	>> random words
-	<< 'random words' не е изречение.
+	>> random_words
+	<< 'random_words' не е изречение.
 
 ### Зад. 7
 
