@@ -11,9 +11,9 @@ void boolify(char str[], bool arr[]) {
         case 'o':
         case 'u':
         case 'y':
-            str[i] = true;break;
+            arr[i] = true;break;
         default:
-            str[i] = false;break;
+            arr[i] = false;break;
         }
     }
 }
