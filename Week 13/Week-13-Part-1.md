@@ -30,7 +30,7 @@
 
 **_Count occurences_**
 
-Напишете функция _void count(int* arr, int size, int find, ___ occurences)_ , която в променливата occurences запазва броя на срещанията на променливата find в масива arr.
+Напишете функция _void count(int* arr, int size, int find, тип occurences)_ , която в променливата occurences запазва броя на срещанията на променливата find в масива arr.
 
 Пример:
 
